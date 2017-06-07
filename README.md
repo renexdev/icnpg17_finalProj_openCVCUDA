@@ -8,13 +8,13 @@
 
 ###########################################################################
 
-###Example 1:
+### Example 1:
  2 filter implementation in cv in cv::cuda
 
-###Example 2: 
+### Example 2: 
 Colour to GrayScale 
 
-###Example 3: 
+### Example 3: 
 Blurring
 
 Use build_sample_X.sh with X= 1,2 or 3 to build the code
