@@ -66,8 +66,8 @@ int main(int argc, char **argv) {
 
   //IO Files
   std::string fileName ("capitanAmerica.jpg");
-  std::string inPathName ("../../data/");
-  std::string outPathName ("../../outputs/");
+  std::string inPathName ("./data/");
+  std::string outPathName ("./outputs/");
   switch (argc)
   {
   case 1:
