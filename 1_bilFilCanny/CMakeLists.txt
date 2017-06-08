@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( icnpg17_opencv_1 )
+find_package( OpenCV REQUIRED )
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
+add_executable( icnpg17_opencv_1 main.cpp )
+target_link_libraries( icnpg17_opencv_1 ${OpenCV_LIBS} )
