@@ -1,4 +1,12 @@
+/*
+=============================================================================================
+N.R Cejas Bolecek ICNPG2017, June 5th 2017
+#Adapted from udacity CS344 course: Intro to Parallel Programming
+=============================================================================================
+//Description:
+//Adapted from
 //http://answers.opencv.org/question/141967/cuda-canny-edge-detector-is-slower-than-cvcanny/
+*/
 #include <opencv2/core/core.hpp>
 #include <opencv2/core/cuda.hpp>
 #include <opencv2/imgproc.hpp>
@@ -17,12 +25,13 @@
 int main(int argc, char **argv)
 {   
 
-      printf("Usage ./icnpg17_opencv_1 [input File] [output path]\n");
-      printf("Modify flags in the source code to obtain: Bilateral Filter, Canny or Bilateral Filter + Canny & recompile\n");
+    printf("Usage ./icnpg17_opencv_1 [input File] [output path]\n");
+    printf("Modify flags in the source code to obtain: Bilateral Filter, Canny or Bilateral Filter + Canny & recompile\n");
+    printf("Please change the fileName with one of your Img in data Folder\n");
 
 
-  //IO Files
-    std::string filename ("destructor.jpg");
+    //IO Files
+    std::string filename ("yourImageInDataFolder");
     std::string inPathName ("./data/");
     std::string outPathName ("./outputs/");
 
@@ -54,6 +63,7 @@ int main(int argc, char **argv)
     std::cout << "r: "<<rows<< " c: "<< cols<< std::endl;
     std::cout << "img.size(): : "<<rows*cols<< std::endl;
 
+    //Another way
     //cv::Size s = mat.size();
     //rows = s.height;
     //cols = s.width;

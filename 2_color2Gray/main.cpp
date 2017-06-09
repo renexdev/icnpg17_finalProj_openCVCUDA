@@ -33,7 +33,6 @@ N.R Cejas Bolecek ICNPG2017, June 5th 2017
 //Notice the trailing f's on the numbers which indicate that they are 
 //single precision floating point constants and not double precision
 //constants.
-
 */
 #include <iostream>
 #include "timer.h"
@@ -63,9 +62,10 @@ int main(int argc, char **argv) {
   bool useEpsCheck = false;
 
   printf("Usage ./icnpg17_opencv_2 [input File] [output path]\n");
+  printf("Please change the fileName with one of your Img in data Folder\n");
 
   //IO Files
-  std::string fileName ("capitanAmerica.jpg");
+  std::string fileName ("yourImageInDataFolder");
   std::string inPathName ("./data/");
   std::string outPathName ("./outputs/");
   switch (argc)
