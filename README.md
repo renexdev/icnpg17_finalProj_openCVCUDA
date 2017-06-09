@@ -1,6 +1,6 @@
 # OpenCV + CUDA project for the ICNPG2017 course, Instituto Balseiro, UNCUYO, Argentina
 
-### Dr. N.R Cejas Bolecek ICNPG2017, June 5th 2017
+### Dr. N.R Cejas Bolecek ICNPG2017, June 12th 2017
 
  reneczechdev@gmail.com
 
