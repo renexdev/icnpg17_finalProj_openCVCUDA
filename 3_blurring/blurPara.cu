@@ -18,11 +18,6 @@ N.R Cejas Bolecek ICNPG2017, June 5th 2017
 // The original layout is known an Array of Structures (AoS) whereas the
 // format we are converting to is known as a Structure of Arrays (SoA).
 
-// As a warm-up, we will ask you to write the kernel that performs this
-// separation. You should then write the "meat" of the assignment,
-// which is the kernel that performs the actual blur. We provide code that
-// re-combines your blurred results for each color channel.
-
 //****************************************************************************
 
 // The gaussian_blur kernel to perform the blurring of the
